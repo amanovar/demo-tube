@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="link.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <div class="logo">
+            <a href="logo.html"> html</a>
+            
+          </div>
+          <nav>
+            <ul>
+              <li><a href="first.html">Home</a></li>
+              <li><a href="#">About</a></li>
+             
+              </ul>
+              </nav>
+              </div>
+              </header>
+
+
+
+    <h1>HTML Links</h1>
+    <p>Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+    <br/>
+    <h1>HTML Links - Hyperlinks</h1>
+    <p>HTML links are hyperlinks.</p>
+    <p>You can click on a link and jump to another document</p>
+    <p>When you move the mouse over a link, the mouse arrow will turn into a little hand</p>
+    <p>Note: A link does not have to be text. A link can be an image or any other HTML element!</p>
+    <br/>
+    <h1>HTML Links - Syntax</h1>
+    <p>The HTML <a> tag defines a hyperlink. It has the following syntax:</p>
+        <p>< a href="url">link text< /a ></p>
+        <br/>
+        <p>The most important attribute of the < a > element is the href attribute, which indicates the link's destination.</p>
+        <p>The link text is the part that will be visible to the reader.</p>
+        <p>Clicking on the link text, will send the reader to the specified URL address.</p>
+        <br/>
+        <p>< a href="https://www.mtl.com/">Visit mtl .com!< /a></p>
+      <p>By default, links will appear as follows in all browsers:</p>
+      <br/>
+      <br/>
+      <br/>
+      <h4>An unvisited link is underlined and blue</h4>
+      <h4>A visited link is underlined and purple</h4>
+      <h4>An active link is underlined and red</h4>
+      <p>Tip: Links can of course be styled with CSS, to get another look</p>
+      <br/>
+      <br/>
+      <h1>HTML Links - The target Attribute</h1>
+      <p>By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.</p>
+      <p>The target attribute specifies where to open the linked document.</p>
+      <p>The target attribute can have one of the following values:</p>
+      <br/>
+      <p>. self - Default. Opens the document in the same window/tab as it was clicked</p>
+      <p>. blank - Opens the document in a new window or tab</p>
+      <p>. parent - Opens the document in the parent frame</p>
+      <p>. top - Opens the document in the full body of the window</p>
+      <br/>
+      <br/>
+    <h2>example</h2>
+    <p>< a href="https://www.mtl.com/" target="_blank">Visit W3Schools!< /a></p>
+    <br/>
+    <br/>
+
+       <h1>Absolute URLs vs. Relative URLs</h1>
+       <p>Both examples above are using an absolute URL (a full web address) in the href attribute.</p>
+       <p>A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):</p>
+       <br/>
+       <br/>
+       <h2>Example</h2>
+       <p>< h2> absolute URLs< /h2></p>
+       <p>p> < a href="https://www.mtl.org/">mtl< /a>< /p</p>
+        <p>< p>< a href="https://www.google.com/">Google< /a>< /p></p>
+        <br/>
+        <br/>
+        <p>< h2>Relative URLs< /h2></p>
+            <p>< p>< a href="html_images.asp">HTML Images< /a>< /p></p>
+            <p>< p>< a href="/css/default.asp">CSS Tutorial< /a>< /p></p>
+            
+            <br/>
+            <br/>
+            <h1>HTML Links - Use an Image as a Link</h1>
+            <p>To use an image as a link, just put the < img> tag inside the < a> tag</p>
+            <br/>
+            <h2>Example</h2>
+            <p>< a href="default.asp">< /a></p>
+            <p>< img src="smiley.gif" alt="HTML tutorial"</p>
+            <p>style="width:42px;height:42px;">
+            < /a></p>
+            <br/>
+            <br/>
+            <h1>Link to an Email Address</h1>
+            <p>Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):</p>
+            <p>< a href="mailto:someone@example.com">Send email< /a></p>
+            <br/>
+            <br/>
+            <h1>Button as a Link</h1>
+            <p>To use an HTML button as a link, you have to add some JavaScript code</p>
+            <p>JavaScript allows you to specify what happens at certain events, such as a click of a button:</p>
+            <br/>
+            <br/>
+            <h2>Example</h2>
+            <p>< button onclick="document.location='default.asp'">HTML Tutorial< /button></p>
+            <br/>
+            <br/>
+            <h1>Link Titles</h1>
+            <p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element</p>
+            
+            <br/>
+            <br/>
+            <h2>Example</h2>
+            <p>< a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial< /a></p>
+            <h1>More on Absolute URLs and Relative URLs</h1>
+            
+            
+            <br/>
+            <br/>
+            <h2>Example</h2>
+            <p>Use a full URL to link to a web page:</p>
+            <p>< a href="https://www.w3schools.com/html/default.asp">HTML tutorial< /a></p>
+            
+            <br/>
+            <br/>
+            <h2>Example</h2>
+            <p>Link to a page located in the html folder on the current web site:</p>
+            <p>< a href="/html/default.asp">HTML tutorial< /a></p>
+           
+           <br/>
+           <br/>
+            <h2>Example</h2>
+            <p>Link to a page located in the same folder as the current page</p>
+              <p>< a href="default.asp">HTML tutorial< /a></p>
+              
+
+
+
+
+              <button style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; font-size: 16px;">↑ Scroll to Top</button>
+              
+
+              <footer>
+                <div class="footer-content">
+                    <a href="https://www.instagram.com/YourInstagramHandle" target="_blank" class="button">Instagram</a>
+                    <a href="https://www.youtube.com/YourChannelLink" target="_blank" class="button">YouTube</a>
+                    <a href="tel:+8851169998" class="button">Call Us: 8851169998</a>
+                </div>
+            </footer>
+            <script src="first.js"></script>
+
+</body>
+</html>
